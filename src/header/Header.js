@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-class App extends React.Component {
+class Header extends React.Component {
   constructor() {
     super();
     this.state = {};
@@ -9,11 +9,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <form onSubmit={}></form>
-      </div>
+      <header>
+        <p>INIT</p>
+      </header>
     );
   }
 }
 
-export default App;
+export default Header;
